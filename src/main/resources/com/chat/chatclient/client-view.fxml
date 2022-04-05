@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.chat.chatclient.ClientController">
+    <Button fx:id="sendButton" disable="true" layoutX="358.0" layoutY="359.0" mnemonicParsing="false" onMouseClicked="#onSendClicked" text="Send" />
+    <TextArea fx:id="outputTextArea" disable="true" editable="false" layoutX="16.0" layoutY="47.0" prefHeight="306.0" prefWidth="388.0" />
+    <TextField fx:id="inputTextField" disable="true" layoutX="14.0" layoutY="359.0" onKeyPressed="#onKeyPressed" prefHeight="26.0" prefWidth="339.0" />
+    <Button fx:id="disconnectButton" disable="true" layoutX="326.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onDisconnectClicked" text="Disconnect" />
+    <Button fx:id="connectButton" layoutX="244.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onConnectClicked" text="Connect" />
+    <Label fx:id="usernameLabel" layoutX="16.0" layoutY="18.0" text="Enter Username:" />
+    <TextField fx:id="usernameTextField" layoutX="109.0" layoutY="14.0" prefHeight="25.0" prefWidth="129.0" />
+</AnchorPane>
