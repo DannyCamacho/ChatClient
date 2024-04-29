@@ -1,5 +1,5 @@
 # ChatClient
-Light-weight Chat client built in Java using JavaFX. Connect to the ChatServer to chat with connected users.
+Light-weight Chat Client built in Java using JavaFX. Connect to the ChatServer to chat with connected users.
 
 ChatServer: https://github.com/DannyCamacho/ChatServer
 
